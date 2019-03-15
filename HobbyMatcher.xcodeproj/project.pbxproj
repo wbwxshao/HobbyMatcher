@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32003899223BEF5C000D6426 /* SignUpDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32003898223BEF5C000D6426 /* SignUpDetailViewController.swift */; };
 		32033CC2223B3A4D004866EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CC1223B3A4D004866EB /* AppDelegate.swift */; };
 		32033CC4223B3A4D004866EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CC3223B3A4D004866EB /* FirstViewController.swift */; };
 		32033CC6223B3A4D004866EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CC5223B3A4D004866EB /* SecondViewController.swift */; };
@@ -14,6 +15,8 @@
 		32033CCB223B3A4E004866EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32033CCA223B3A4E004866EB /* Assets.xcassets */; };
 		32033CCE223B3A4E004866EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32033CCC223B3A4E004866EB /* LaunchScreen.storyboard */; };
 		32033CD9223B3A4E004866EB /* HobbyMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CD8223B3A4E004866EB /* HobbyMatcherTests.swift */; };
+		32033CE4223B4429004866EB /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CE3223B4429004866EB /* SigninViewController.swift */; };
+		32033CE6223B4440004866EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033CE5223B4440004866EB /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32003898223BEF5C000D6426 /* SignUpDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetailViewController.swift; sourceTree = "<group>"; };
 		32033CBE223B3A4D004866EB /* HobbyMatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyMatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32033CC1223B3A4D004866EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32033CC3223B3A4D004866EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		32033CD4223B3A4E004866EB /* HobbyMatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyMatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32033CD8223B3A4E004866EB /* HobbyMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyMatcherTests.swift; sourceTree = "<group>"; };
 		32033CDA223B3A4E004866EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32033CE3223B4429004866EB /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		32033CE5223B4440004866EB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				32033CC3223B3A4D004866EB /* FirstViewController.swift */,
 				32033CC5223B3A4D004866EB /* SecondViewController.swift */,
 				32033CC7223B3A4D004866EB /* Main.storyboard */,
+				32003898223BEF5C000D6426 /* SignUpDetailViewController.swift */,
+				32033CE5223B4440004866EB /* SignUpViewController.swift */,
+				32033CE3223B4429004866EB /* SigninViewController.swift */,
 				32033CCA223B3A4E004866EB /* Assets.xcassets */,
 				32033CCC223B3A4E004866EB /* LaunchScreen.storyboard */,
 				32033CCF223B3A4E004866EB /* Info.plist */,
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32033CE4223B4429004866EB /* SigninViewController.swift in Sources */,
 				32033CC6223B3A4D004866EB /* SecondViewController.swift in Sources */,
 				32033CC2223B3A4D004866EB /* AppDelegate.swift in Sources */,
 				32033CC4223B3A4D004866EB /* FirstViewController.swift in Sources */,
+				32003899223BEF5C000D6426 /* SignUpDetailViewController.swift in Sources */,
+				32033CE6223B4440004866EB /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
